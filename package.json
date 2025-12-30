@@ -1,0 +1,21 @@
+{
+    "name": "video-splitter",
+    "version": "1.0.0",
+    "description": "A Node.js script to split videos into parts with text overlays",
+    "main": "split_video.js",
+    "scripts": {
+        "start": "node split_video.js",
+        "split-video": "node split_video.js"
+    },
+    "keywords": [
+        "video",
+        "ffmpeg",
+        "split",
+        "overlay",
+        "text"
+    ],
+    "author": "User",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {}
+}

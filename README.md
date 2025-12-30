@@ -63,7 +63,6 @@ You can also modify the text overlays by changing the text parameters in the `sp
 - `-vf`: Video filter, specifically using `drawtext` to add text overlays
   - `fontsize=60`: Sets the font size
   - `fontcolor=white`: Sets the text color to white
-  - `x=(w-text_w)/2:y=(h-text_h)/2`: Centers the text on the video
-  - `box=1:boxcolor=black@0.5`: Adds a semi-transparent black box behind the text
+- `x=(w-text_w)/2:y=(h-text_h)/2`: Centers the text on the video
+- `box=1:boxcolor=black@0.5`: Adds a semi-transparent black box behind the text
 - `-c:a copy`: Copies the audio stream without re-encoding
-# video-splitter-with-text
